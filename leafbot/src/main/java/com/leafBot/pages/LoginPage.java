@@ -20,7 +20,7 @@ public class LoginPage extends ProjectSpecificMethods {
 
 	@Given("Click on the Login")
 	public HomePage clickLogin() {
-		click(locateElement("class","decorativeSubmit"));
+		click(locateElement("class","decorativeSubmitgtdrg"));
 		return new HomePage();
 	}
 }
